@@ -1,13 +1,14 @@
-import css from "./Section.module.css"
+import {Container,Text} from "./Section.styled"
 import PropTypes from "prop-types"
 
 const Section = ({title,children}) => {
 return (
-
-    <div className={css.statistic_hero}>
-        <p className={css.text}>{title}</p>
-        {children}
-    </div>
+<Container>
+    <Text>
+    {title}
+    </Text>
+    {children}
+</Container>
 )
 }
 
