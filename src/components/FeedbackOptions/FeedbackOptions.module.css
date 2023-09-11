@@ -1,0 +1,10 @@
+
+
+.button::first-letter{
+ text-transform: uppercase;
+
+}
+
+.button{
+    margin-right: 5px;
+}

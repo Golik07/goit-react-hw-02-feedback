@@ -1,0 +1,10 @@
+
+
+.text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text::first-letter{
+    text-transform: uppercase;
+}
