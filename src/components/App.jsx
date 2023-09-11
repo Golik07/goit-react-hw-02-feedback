@@ -1,11 +1,11 @@
 
-import React from "react"
+import React,{Component}from "react"
 import FeedbackOptions from "./FeedbackOptions"
 import Section from "./Section"
 import Statistics from "./Statistics"
 import Notification from "./Notification"
 
-export class App extends React.Component {
+export class App extends Component {
   state = {
       good: 0,
       neutral: 0,
